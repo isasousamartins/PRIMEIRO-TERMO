@@ -19,7 +19,7 @@ def validar_emprestimo():
         dias = int(entry_dias.get())
 
         # 2. Identificação do Perfil e da Categoria do livro
-        perfil = var_perfil.get()  # 1 para Aluno, 2 para Comunidade
+        perfil = var_perfil.get() 
         is_raro = "(Raros)" in livro_selecionado  # Identifica se o livro é raro pelo texto
 
         # 3. Aplicação das Regras de Negócio
